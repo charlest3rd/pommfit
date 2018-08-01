@@ -1,0 +1,91 @@
+body{
+background-repeat: no-repeat;
+    background-attachment: fixed;
+background-image: url(https://www.gs-schmitz.de/lib/img/schmitz-grillwurst.jpg);
+background-size:cover;
+}
+
+.wrapper{
+    background-color: #e5d2b3;
+     border:solid 4px black;
+    border-radius: 15px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#headline{
+    
+font-family: 'Great Vibes',cursive;
+text-align: center;
+font-size: 50;
+}
+#headline img{
+width: 240px;
+    height:200px;
+font-family: 'Great Vibes',cursive;
+text-align: center;
+font-size: 50;
+}
+#nav a{
+    
+    border: 1px solid black;
+    padding:0 5 3 5;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    font-size: 23;
+    
+    text-align: center;
+    margin-left: 100px;
+     
+}
+#nav {
+    position: sticky;
+    top:10;
+}
+#nav a:hover{
+    
+    border: 2px solid black;
+    padding:0 5 3 5;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    transition: all ease-in-out 300ms;
+    font-size: 23;
+    
+    text-align: center;
+    
+     
+}
+
+#content{
+    font-family: 'Great Vibes',cursive;
+    margin-top: 100;
+    margin-left: 50px;
+    list-style: none;
+}
+
+#content ul{
+    list-style: none;
+}
+
+#content p{
+    font-size: 25px;
+    font-family: Calibri;
+}
+#seperator1{
+    background-color: black;
+    margin-top: 20px;
+    height: 3px;
+}
+
+#bildvorne{
+ width: 307.2px;
+    margin-left: 100px;
+}
